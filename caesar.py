@@ -22,5 +22,5 @@ def caesar(text, shift, alphabets):
     table = str.maketrans(final_alphabet, final_shifted_alphabet)
     return text.translate(table)
     
-plain_text = "MYSUPERcomplicatedPASSWORD^%$"
+plain_text = "TJisChillinHereWatchingMusicVideosWithAlecandTheyAreAllChillinNShitAndJustHanginOutWithEveryoneOnTheCouchArronIsHereAsWell"
 print(caesar(plain_text, 7, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation]))
